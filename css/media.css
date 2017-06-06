@@ -1,0 +1,48 @@
+@media (min-width: 1px) and (max-width: 768px) {
+	body{
+		font-family: 'Montserrat', sans-serif;
+	}
+	
+	/* common styles */
+	.list{
+	width: 96%;
+	text-align: left;
+	list-style: none;
+	border-right: none;
+	border-bottom: 1px solid black;
+	margin: 0;
+	padding: 10px;
+	}
+
+	a:hover{
+		color: #539594;
+	}
+
+	/* main styles */
+	nav{
+		background-color: #252929;
+		width: 100%;
+	}
+
+	#menu.hidden{
+		display: none;
+	}
+
+	#menu.flex-container{
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		margin: 0;
+		padding: 0;
+	}
+	/* responsive menu */
+	#nav .btn-menu{
+		display: inline-block;
+	}
+}
+
+@media (min-width: 768px){
+	.btn-menu{
+		display: none;
+	}
+}
