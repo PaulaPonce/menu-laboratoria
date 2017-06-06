@@ -3,3 +3,41 @@ body{
 	margin: 0;
 	padding: 0;
 }
+
+/* common styles */
+.flex-container{
+	display: flex;
+}
+
+.list{
+	width: 16.66667%;
+	text-align: center;
+	list-style: none;
+	border-right: 1px solid black;
+	margin: 0;
+	padding: 10px;
+}
+
+a{
+	padding: 10px;
+	text-decoration: none;
+	color: whitesmoke;
+	font-weight: bold;
+	cursor: pointer;
+}
+a:hover{
+	color: #FB0657;
+}
+
+/* main styles */
+nav{
+	background-color: #db7878;
+	width: 100%;
+}
+
+#menu.flex-container{
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 0;
+	padding: 0;
+}
